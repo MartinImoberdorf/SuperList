@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+html{
+    background-image: url("https://fondosmil.com/fondo/16641.jpg");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+}
+
+html{
+    /*background-color: #5e7fc7;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 5em;
+    color: azure;
+    margin: 35px 0 0 0;
+    text-align: center;
+}
+
+input{
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+div{
+    text-align: center;
+}
+input::placeholder{
+    font-family: 'Itim', cursive;
+}
+
+
+#task-list{
+    margin: 10px;
+    min-height: 500px;
+    background-color: rgba(240, 255, 255, 0.39);
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(177,197,219,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(177,197,219,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(177,197,219,0.75);
+}
+
+#task-list li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+#task-button{
+    width: 150px;
+}
+
+#task-button{
+    font-weight: 0;
+    font-size: 14px;
+    height: 35px;
+    color: #fff;
+    background-color: #0d86ff;
+    border: 2px solid #0d86ff;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+#task-button:hover{
+    transition : 1000ms;
+    padding: 8px 25px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0d86ff;
+    border: solid 2px #0d86ff;
+}
+
+button{
+    font-size: 1em;
+    color: #fff;
+    background-color: #0d86ff;
+    text-align: center;
+    border: 2px solid #0d86ff;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50%;
+    width: 25px;
+    transition : 1000ms;
+    transform: translateY(0);
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover{
+    transition : 1000ms;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0d86ff;
+    border: solid 2px #0d86ff;
+}
+
+footer{
+    text-align: right;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+@media screen and (max-width:800px){
+    h1{
+        font-size: 2em;
+        margin: 10px;
+    }
+    input{
+        height: 25px;
+    }
+    #task-button{
+        width: 150px;
+        padding: 0;
+        height: 25px;
+        font-size: 10px;
+    }
+}
