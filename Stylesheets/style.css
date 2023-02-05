@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 html{
-    background-image: url("https://fondosmil.com/fondo/16641.jpg");
+    
 }
 
-body,head{
-    background-color:#000;
+body{
+    background-image: url("https://fondosmil.com/fondo/16641.jpg");
 }
 
 *{
